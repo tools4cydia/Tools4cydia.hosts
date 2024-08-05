@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>AhaDNS Blitz</string>
+    <key>PayloadOrganization</key>
+    <string>AhaDNS.com</string>
+    <key>PayloadDescription</key>
+    <string>This profile enables AhaDNS Blitz on all networks using the block lists: 1Hosts (Xtra)</string>
+    <key>ConsentText</key>
+    <dict>
+      <key>default</key>
+      <string>
+Congrats, you're one step away from a faster and safer internet by using AhaDNS Blitz.
+
+Modify this config whenever you want at:
+https://blitz-setup.ahadns.com/
+      </string>
+    </dict>
+    <key>PayloadIdentifier</key>
+    <string>f9876474-4695-4cbb-9a5b-2f0ed62e54c1</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>19f35d6d-4758-42c3-b83b-ab24c8d092af</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://raw.githubusercontent.com/tools4cydia/Tools4cydia.hosts/main/domains.txt</string>
+        </dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadIdentifier</key>
+        <string>738988d5-8df4-4416-a5b3-2f4d1fc12bcf</string>
+        <key>PayloadUUID</key>
+        <string>1e9460fd-f0a8-42ca-9378-4c4e17f40b77</string>
+        <key>PayloadDisplayName</key>
+        <string>AhaDNS Blitz</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+      </dict>
+    </array>
+  </dict>
+</plist>
